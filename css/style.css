@@ -164,7 +164,7 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 ====================================== */
 
 /* font family */
-.alt-font {font-family:  'Montserrat','Noto Sans KR', sans-serif; font-weight: 500}
+.alt-font {font-family: 'AppleSDGothicNeo', 'Montserrat','Noto Sans KR', sans-serif; font-weight: 500}
 .main-font {font-family: 'AppleSDGothicNeo', 'Roboto', 'SF Display', 'Noto Sans KR', sans-serif;}
 .e-font {font-family: 'AppleSDGothicNeo', 'Noto Sans KR', 'Montserrat', 'Roboto', 'SF Display', sans-serif;}
 
