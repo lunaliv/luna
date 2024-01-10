@@ -43,6 +43,26 @@ Table of contents
 
 /* webfonts */
 @font-face {
+    font-family: "SF Display";
+    font-weight: 300;
+    src: url(../fonts/SFProDisplay-Light.ttf);
+}
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: url(../fonts/SFProDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: "SF Display";
+    font-weight: 400;
+    src: url(../fonts/SFProDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "SF Display";
+    font-weight: 600;
+    src: url(../fonts/SFProDisplay-Semibold.ttf);
+}
+/* @font-face {
   font-family: "AppleSDGothicNeo";
   font-weight: 100;
   src: url(../fonts/AppleSDGothicNeoT.ttf);
@@ -86,27 +106,7 @@ Table of contents
   font-family: "AppleSDGothicNeoH";
   font-weight: 900;
   src: url(../fonts/AppleSDGothicNeoH.ttf);
-}
-@font-face {
-    font-family: "SF Display";
-    font-weight: 300;
-    src: url(../fonts/SFProDisplay-Light.ttf);
-}
-@font-face {
-    font-family: "SF Display";
-    font-weight: 500;
-    src: url(../fonts/SFProDisplay-Medium.ttf);
-}
-@font-face {
-    font-family: "SF Display";
-    font-weight: 400;
-    src: url(../fonts/SFProDisplay-Regular.ttf);
-}
-@font-face {
-    font-family: "SF Display";
-    font-weight: 600;
-    src: url(../fonts/SFProDisplay-Semibold.ttf);
-}
+} */
 /* ===================================
     02. Reset
 ====================================== */
@@ -116,7 +116,12 @@ html {font-size: 15px;}
       font-weight: 500;
       font-size: 15px;
       line-height: 1.267em}  */
-body {font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif; color:#6f6f6f;}
+body {font-family: 'Roboto','Noto Sans KR', sans-serif; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 24px;
+      font-family: "SF Display","Helvetica Neue", "Apple SD Gothic Neo", 'Noto Sans KR', sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.267em}
+/*body {font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif; color:#6f6f6f;}*/
 body, html {height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus {color: #6f6f6f; text-decoration: none;}
 a:hover, a:active{color: var(--base-color); text-decoration: none;}
@@ -164,9 +169,9 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 ====================================== */
 
 /* font family */
-.alt-font {font-family: 'AppleSDGothicNeo', 'Montserrat','Noto Sans KR', sans-serif; font-weight: 500}
-.main-font {font-family: 'AppleSDGothicNeo', 'Roboto', 'SF Display', 'Noto Sans KR', sans-serif;}
-.e-font {font-family: 'AppleSDGothicNeo', 'Noto Sans KR', 'Montserrat', 'Roboto', 'SF Display', sans-serif;}
+.alt-font {font-family: 'Montserrat','Noto Sans KR', sans-serif; font-weight: 500}
+.main-font {font-family: 'Noto Sans KR', 'AppleSDGothicNeo', 'Roboto', 'SF Display', 'Noto Sans KR', sans-serif;}
+.e-font {font-family: 'AppleSDGothicNeo','Montserrat', 'Roboto', 'SF Display', sans-serif;}
 
 /* heading */
 h1, h2, h3, h4, h5, h6 {margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400;}
